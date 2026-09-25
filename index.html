@@ -1,585 +1,2651 @@
+
+
 <!DOCTYPE html>
-<html lang="ne">
+<html lang="en">
+
 <head>
-  <a href="https://Durgaform.pagedrop.io.">
 
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title> Durga Krishi Tatha pasupanchhi form dungeshwor ga.pa.2 dailekh</title>
-  <meta name="description" content="दैलेख, डुङ्गेश्वर–२ स्थित दुर्गा कृषि फर्म — तरकारी, दुग्ध, कुखुरा/बट्टाई, बाख्रा तथा कृषि परामर्श।" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@300;400;600;700;800;900&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
-  <style>
-    :root{ --brand:#166534; --brand-2:#22c55e; }
-    html{ scroll-behavior:smooth; }
-    body{ font-family:"Noto Sans Devanagari", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Inter", sans-serif; }
-    .glass{ backdrop-filter: blur(10px); background: rgba(255,255,255,.12); }
-    .shine{ position:relative; overflow:hidden; }
-    .shine:after{ content:""; position:absolute; inset:-100% -150%; background:linear-gradient(120deg,transparent 45%,rgba(255,255,255,.35) 50%,transparent 55%); animation:shine 4s linear infinite; }
-    @keyframes shine{ 0%{ transform:translateX(-30%); } 100%{ transform:translateX(130%);} }
-  </style>
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday ❤️</title>
+
+
+<style>
+
+/* =========================================
+   RESET
+========================================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    min-height:100vh;
+
+    font-family:
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    color:white;
+
+    overflow-x:hidden;
+
+    background:
+
+        radial-gradient(
+            circle at 10% 10%,
+            #ff1593 0,
+            transparent 27%
+        ),
+
+        radial-gradient(
+            circle at 90% 90%,
+            #603cff 0,
+            transparent 30%
+        ),
+
+        linear-gradient(
+            135deg,
+            #05000f,
+            #18002d,
+            #050014
+        );
+}
+
+
+/* =========================================
+   BACKGROUND
+========================================= */
+
+.background{
+
+    position:fixed;
+
+    inset:0;
+
+    overflow:hidden;
+
+    z-index:-10;
+}
+
+
+.orb{
+
+    position:absolute;
+
+    border-radius:50%;
+
+    filter:blur(25px);
+
+    opacity:.3;
+
+    animation:
+        floatingOrb
+        9s
+        infinite
+        alternate
+        ease-in-out;
+}
+
+
+.orb1{
+
+    width:300px;
+    height:300px;
+
+    background:#ff1493;
+
+    top:0;
+    left:0;
+}
+
+
+.orb2{
+
+    width:350px;
+    height:350px;
+
+    background:#603cff;
+
+    right:-80px;
+    bottom:-80px;
+
+    animation-delay:2s;
+}
+
+
+.orb3{
+
+    width:180px;
+    height:180px;
+
+    background:#00eaff;
+
+    top:45%;
+    left:45%;
+
+    animation-delay:4s;
+}
+
+
+@keyframes floatingOrb{
+
+    from{
+        transform:
+            translate(0,0)
+            scale(1);
+    }
+
+    to{
+        transform:
+            translate(60px,-50px)
+            scale(1.2);
+    }
+}
+
+
+/* =========================================
+   MAIN CONTAINER
+========================================= */
+
+.container{
+
+    width:100%;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    padding:40px 15px;
+}
+
+
+.card{
+
+    width:100%;
+
+    max-width:1100px;
+
+    padding:45px;
+
+    border-radius:35px;
+
+    background:
+        rgba(255,255,255,.07);
+
+    border:
+        1px solid
+        rgba(255,255,255,.18);
+
+    backdrop-filter:blur(18px);
+
+    box-shadow:
+        0 30px 100px
+        rgba(0,0,0,.55);
+
+    overflow:hidden;
+
+    position:relative;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.top{
+
+    text-align:center;
+
+    color:#ff9fd2;
+
+    font-size:14px;
+
+    letter-spacing:5px;
+
+    text-transform:uppercase;
+
+    margin-bottom:15px;
+}
+
+
+/* =========================================
+   3D NAME
+========================================= */
+
+.name3d{
+
+    text-align:center;
+
+    font-size:
+        clamp(
+            55px,
+            11vw,
+            120px
+        );
+
+    font-weight:1000;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+    color:#fff;
+
+    position:relative;
+
+    transform-style:preserve-3d;
+
+    text-shadow:
+
+        1px 1px 0 #ff1593,
+
+        2px 2px 0 #ff1593,
+
+        3px 3px 0 #ff1593,
+
+        4px 4px 0 #c5006d,
+
+        5px 5px 0 #c5006d,
+
+        6px 6px 0 #970052,
+
+        10px 15px 30px
+        rgba(255,0,150,.45);
+
+    animation:
+        name3D
+        3s
+        infinite
+        ease-in-out;
+}
+
+
+@keyframes name3D{
+
+    0%,100%{
+
+        transform:
+            perspective(700px)
+            rotateX(0deg)
+            rotateY(-8deg)
+            translateY(0);
+
+    }
+
+    50%{
+
+        transform:
+            perspective(700px)
+            rotateX(8deg)
+            rotateY(8deg)
+            translateY(-12px);
+
+    }
+}
+
+
+/* =========================================
+   HAPPY BIRTHDAY
+========================================= */
+
+.title{
+
+    text-align:center;
+
+    font-size:
+        clamp(
+            42px,
+            7vw,
+            80px
+        );
+
+    font-weight:900;
+
+    margin-top:10px;
+
+    background:
+
+        linear-gradient(
+            90deg,
+            #ff3d9a,
+            #fff,
+            #6cecff,
+            #ff3d9a
+        );
+
+    background-size:300%;
+
+    -webkit-background-clip:text;
+
+    color:transparent;
+
+    animation:
+        gradientMove
+        5s
+        linear
+        infinite;
+}
+
+
+@keyframes gradientMove{
+
+    to{
+        background-position:300%;
+    }
+}
+
+
+.subtitle{
+
+    text-align:center;
+
+    color:#ddd;
+
+    font-size:18px;
+
+    margin-top:12px;
+}
+
+
+/* =========================================
+   MUSIC BUTTON
+========================================= */
+
+.music-control{
+
+    position:fixed;
+
+    top:20px;
+
+    right:20px;
+
+    z-index:500;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+}
+
+
+.music-button{
+
+    width:52px;
+
+    height:52px;
+
+    padding:0;
+
+    border-radius:50%;
+
+    border:
+        1px solid
+        rgba(255,255,255,.3);
+
+    background:
+        linear-gradient(
+            135deg,
+            #ff1593,
+            #653cff
+        );
+
+    color:white;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    box-shadow:
+        0 8px 30px
+        rgba(255,0,150,.35);
+
+    transition:.3s;
+}
+
+
+.music-button:hover{
+
+    transform:
+        scale(1.1)
+        rotate(8deg);
+}
+
+
+/* =========================================
+   MAIN AREA
+========================================= */
+
+.main{
+
+    margin-top:45px;
+
+    display:grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    gap:45px;
+
+    align-items:center;
+}
+
+
+/* =========================================
+   SLIDESHOW
+========================================= */
+
+.slideshow{
+
+    position:relative;
+
+    width:100%;
+
+    max-width:450px;
+
+    height:450px;
+
+    margin:auto;
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+    border:
+        2px solid
+        rgba(255,255,255,.2);
+
+    box-shadow:
+        0 20px 60px
+        rgba(0,0,0,.5);
+}
+
+
+.slide{
+
+    position:absolute;
+
+    inset:0;
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    opacity:0;
+
+    transform:scale(1.08);
+
+    transition:
+        opacity 1s ease,
+        transform 5s ease;
+}
+
+
+.slide.active{
+
+    opacity:1;
+
+    transform:scale(1);
+}
+
+
+/* SLIDE OVERLAY */
+
+.slide-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+        linear-gradient(
+            transparent 55%,
+            rgba(0,0,0,.65)
+        );
+
+    pointer-events:none;
+}
+
+
+/* SLIDE DOTS */
+
+.dots{
+
+    position:absolute;
+
+    bottom:15px;
+
+    left:0;
+
+    right:0;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:7px;
+
+    z-index:10;
+}
+
+
+.dot{
+
+    width:9px;
+
+    height:9px;
+
+    border-radius:50%;
+
+    background:
+        rgba(255,255,255,.45);
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+
+.dot.active{
+
+    width:25px;
+
+    border-radius:20px;
+
+    background:#ff4ca4;
+}
+
+
+/* =========================================
+   MESSAGE AREA
+========================================= */
+
+.message{
+
+    padding:30px;
+
+    border-radius:25px;
+
+    background:
+        rgba(0,0,0,.2);
+
+    border:
+        1px solid
+        rgba(255,255,255,.1);
+}
+
+
+.small{
+
+    color:#ff80c0;
+
+    font-size:17px;
+}
+
+
+.person-name{
+
+    font-size:40px;
+
+    font-weight:800;
+
+    margin:
+        8px 0 18px;
+}
+
+
+.intro{
+
+    color:#ddd;
+
+    line-height:1.8;
+
+    font-size:16px;
+}
+
+
+/* =========================================
+   SURPRISE BUTTON
+========================================= */
+
+.surprise-button{
+
+    display:block;
+
+    margin:28px auto 10px;
+
+    padding:
+        16px 30px;
+
+    border:none;
+
+    border-radius:50px;
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    background:
+
+        linear-gradient(
+            135deg,
+            #ff1593,
+            #713cff
+        );
+
+    box-shadow:
+
+        0 10px 35px
+        rgba(255,0,150,.35);
+
+    animation:
+        surprisePulse
+        1.8s
+        infinite;
+}
+
+
+@keyframes surprisePulse{
+
+    0%,100%{
+        transform:scale(1);
+    }
+
+    50%{
+        transform:scale(1.06);
+    }
+}
+
+
+.surprise-button:hover{
+
+    animation:none;
+
+    transform:
+        translateY(-4px)
+        scale(1.05);
+}
+
+
+/* =========================================
+   SURPRISE MESSAGE
+========================================= */
+
+.surprise{
+
+    max-height:0;
+
+    opacity:0;
+
+    overflow:hidden;
+
+    transform:
+        translateY(20px);
+
+    transition:
+        max-height 1s ease,
+        opacity .8s ease,
+        transform .8s ease;
+
+    text-align:center;
+}
+
+
+.surprise.show{
+
+    max-height:500px;
+
+    opacity:1;
+
+    transform:
+        translateY(0);
+
+    margin-top:25px;
+}
+
+
+.surprise h2{
+
+    font-size:32px;
+
+    margin-bottom:15px;
+
+    background:
+
+        linear-gradient(
+            90deg,
+            #ff4ca4,
+            #fff,
+            #6cecff
+        );
+
+    -webkit-background-clip:text;
+
+    color:transparent;
+}
+
+
+.surprise p{
+
+    color:#ddd;
+
+    line-height:1.9;
+
+    font-size:16px;
+}
+
+
+/* =========================================
+   CAKE
+========================================= */
+
+.cake{
+
+    position:relative;
+
+    width:150px;
+
+    height:95px;
+
+    margin:
+        25px auto 10px;
+}
+
+
+.cake-body{
+
+    position:absolute;
+
+    bottom:0;
+
+    width:150px;
+
+    height:70px;
+
+    background:
+        linear-gradient(
+            #ff72b6,
+            #cf267e
+        );
+
+    border-radius:
+        12px
+        12px
+        20px
+        20px;
+}
+
+
+.cream{
+
+    position:absolute;
+
+    top:22px;
+
+    width:150px;
+
+    height:18px;
+
+    background:white;
+
+    border-radius:50%;
+
+    z-index:2;
+}
+
+
+.candle{
+
+    position:absolute;
+
+    left:69px;
+
+    top:-20px;
+
+    width:12px;
+
+    height:45px;
+
+    background:white;
+
+    border-radius:5px;
+
+    z-index:4;
+}
+
+
+.flame{
+
+    position:absolute;
+
+    left:66px;
+
+    top:-42px;
+
+    width:18px;
+
+    height:25px;
+
+    background:#ffd43b;
+
+    border-radius:
+        50%
+        50%
+        50%
+        0;
+
+    transform:rotate(-45deg);
+
+    box-shadow:
+        0 0 25px #ffb000;
+
+    animation:
+        flame
+        .6s
+        infinite
+        alternate;
+
+    z-index:5;
+}
+
+
+@keyframes flame{
+
+    to{
+        transform:
+            rotate(-45deg)
+            scale(1.2);
+    }
+}
+
+
+/* =========================================
+   GALLERY
+========================================= */
+
+
+.gallery-section{
+
+    margin-top:70px;
+}
+
+
+.section-title{
+
+    text-align:center;
+
+    font-size:32px;
+
+    margin-bottom:8px;
+}
+
+
+.section-subtitle{
+
+    text-align:center;
+
+    color:#aaa;
+
+    margin-bottom:30px;
+}
+
+
+.gallery{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(5,1fr);
+
+    gap:15px;
+}
+
+
+.gallery-item{
+
+    height:160px;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    cursor:pointer;
+
+    border:
+        2px solid
+        rgba(255,255,255,.15);
+
+    transition:.4s;
+
+    position:relative;
+}
+
+
+.gallery-item:hover{
+
+    transform:
+        translateY(-8px)
+        scale(1.03);
+
+    border-color:#ff59ae;
+
+    box-shadow:
+        0 15px 35px
+        rgba(255,0,150,.3);
+}
+
+
+.gallery-item img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.5s;
+}
+
+
+.gallery-item:hover img{
+
+    transform:scale(1.12);
+}
+
+
+.overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:
+        rgba(0,0,0,.3);
+
+    opacity:0;
+
+    font-size:30px;
+
+    transition:.3s;
+}
+
+
+.gallery-item:hover .overlay{
+
+    opacity:1;
+}
+
+
+/* =========================================
+   LIGHTBOX
+========================================= */
+
+.lightbox{
+
+    position:fixed;
+
+    inset:0;
+
+    background:
+        rgba(0,0,0,.94);
+
+    z-index:1000;
+
+    display:none;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:30px;
+}
+
+
+.lightbox.active{
+
+    display:flex;
+}
+
+
+.lightbox img{
+
+    max-width:96vw;
+
+    max-height:92vh;
+
+    width:auto;
+    height:auto;
+
+    object-fit:contain;
+
+    border-radius:15px;
+
+    box-shadow:
+        0 0 70px
+        rgba(255,255,255,.15);
+}
+
+
+.close{
+
+    position:absolute;
+
+    top:20px;
+
+    right:30px;
+
+    font-size:45px;
+
+    cursor:pointer;
+}
+
+
+.prev,
+.next{
+
+    position:absolute;
+
+    top:50%;
+
+    transform:
+        translateY(-50%);
+
+    width:55px;
+
+    height:55px;
+
+    padding:0;
+
+    border:none;
+
+    border-radius:50%;
+
+    color:white;
+
+    font-size:30px;
+
+    cursor:pointer;
+
+    background:
+        rgba(255,255,255,.15);
+}
+
+
+.prev{left:25px}
+
+.next{right:25px}
+
+
+/* =========================================
+   BALLOONS
+========================================= */
+
+.balloon{
+
+    position:fixed;
+
+    width:45px;
+
+    height:58px;
+
+    bottom:-100px;
+
+    border-radius:50%;
+
+    z-index:-1;
+
+    opacity:.8;
+
+    animation:
+        balloonUp
+        10s
+        linear
+        infinite;
+}
+
+
+.b1{
+
+    background:#ff3f9f;
+
+    left:7%;
+}
+
+
+.b2{
+
+    background:#00d9ff;
+
+    left:25%;
+
+    animation-delay:3s;
+}
+
+
+.b3{
+
+    background:#8c5cff;
+
+    right:25%;
+
+    animation-delay:5s;
+}
+
+
+.b4{
+
+    background:#ffd43b;
+
+    right:7%;
+
+    animation-delay:7s;
+}
+
+
+@keyframes balloonUp{
+
+    to{
+
+        transform:
+            translateY(-120vh)
+            rotate(10deg);
+    }
+}
+
+
+/* =========================================
+   HEARTS
+========================================= */
+
+.heart{
+
+    position:fixed;
+
+    bottom:-30px;
+
+    z-index:2000;
+
+    pointer-events:none;
+
+    animation:
+        heartUp
+        5s
+        linear
+        forwards;
+}
+
+
+@keyframes heartUp{
+
+    to{
+
+        transform:
+            translateY(-110vh)
+            scale(1.5);
+
+        opacity:0;
+    }
+}
+
+
+/* =========================================
+   CONFETTI
+========================================= */
+
+.confetti{
+
+    position:fixed;
+
+    top:-20px;
+
+    width:9px;
+
+    height:15px;
+
+    z-index:3000;
+
+    animation:
+        confettiFall
+        4s
+        linear
+        forwards;
+}
+
+
+@keyframes confettiFall{
+
+    to{
+
+        transform:
+            translateY(110vh)
+            rotate(720deg);
+
+        opacity:0;
+    }
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.footer{
+
+    text-align:center;
+
+    color:#aaa;
+
+    font-size:13px;
+
+    margin-top:40px;
+}
+
+
+.footer span{
+
+    color:#ff75b9;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media(max-width:850px){
+
+    .card{
+
+        padding:30px 20px;
+    }
+
+    .main{
+
+        grid-template-columns:1fr;
+    }
+
+    .slideshow{
+
+        height:350px;
+    }
+
+    .gallery{
+
+        grid-template-columns:
+            repeat(2,1fr);
+    }
+
+}
+
+
+@media(max-width:500px){
+
+    .name3d{
+
+        font-size:52px;
+    }
+
+    .title{
+
+        font-size:45px;
+    }
+
+    .slideshow{
+
+        height:300px;
+    }
+
+    .gallery-item{
+
+        height:145px;
+    }
+
+    .person-name{
+
+        font-size:30px;
+    }
+
+    .music-control{
+
+        top:10px;
+
+        right:10px;
+    }
+
+}
+
+
+/* =========================================
+   BIRTHDAY ENTRY SCREEN
+========================================= */
+
+.birthday-entry{
+    position:fixed;
+    inset:0;
+    z-index:9999;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:25px;
+    background:
+        radial-gradient(circle at 20% 20%, rgba(255,21,147,.35), transparent 30%),
+        radial-gradient(circle at 80% 80%, rgba(96,60,255,.35), transparent 30%),
+        linear-gradient(135deg,#05000f,#18002d,#050014);
+    transition:opacity .8s ease, visibility .8s ease;
+}
+
+.birthday-entry.hide{
+    opacity:0;
+    visibility:hidden;
+    pointer-events:none;
+}
+
+.entry-box{
+    width:min(560px,100%);
+    padding:45px 30px;
+    text-align:center;
+    border-radius:32px;
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.2);
+    backdrop-filter:blur(20px);
+    box-shadow:0 30px 100px rgba(0,0,0,.6);
+    animation:entryFloat 2.5s ease-in-out infinite;
+}
+
+.entry-emoji{
+    font-size:70px;
+    margin-bottom:15px;
+    animation:entryBounce 1.5s ease-in-out infinite;
+}
+
+.entry-box h2{
+    font-size:clamp(32px,7vw,55px);
+    margin-bottom:12px;
+    background:linear-gradient(90deg,#ff4ca4,#fff,#6cecff,#ff4ca4);
+    background-size:300%;
+    -webkit-background-clip:text;
+    color:transparent;
+    animation:gradientMove 5s linear infinite;
+}
+
+.entry-box p{
+    color:#ddd;
+    font-size:16px;
+    line-height:1.7;
+    margin-bottom:25px;
+}
+
+.enter-button{
+    border:none;
+    border-radius:50px;
+    padding:16px 32px;
+    color:white;
+    font-size:17px;
+    font-weight:800;
+    cursor:pointer;
+    background:linear-gradient(135deg,#ff1593,#713cff);
+    box-shadow:0 10px 40px rgba(255,0,150,.4);
+    transition:.3s;
+}
+
+.enter-button:hover{
+    transform:translateY(-4px) scale(1.05);
+    box-shadow:0 15px 50px rgba(255,0,150,.55);
+}
+
+@keyframes entryFloat{
+    0%,100%{transform:translateY(0)}
+    50%{transform:translateY(-10px)}
+}
+
+@keyframes entryBounce{
+    0%,100%{transform:scale(1) rotate(0)}
+    50%{transform:scale(1.12) rotate(5deg)}
+}
+
+/* MUSIC STATUS */
+.music-status{
+    position:fixed;
+    top:78px;
+    right:20px;
+    z-index:500;
+    padding:8px 13px;
+    border-radius:20px;
+    background:rgba(0,0,0,.45);
+    border:1px solid rgba(255,255,255,.15);
+    color:#ddd;
+    font-size:12px;
+    opacity:0;
+    transform:translateY(-8px);
+    pointer-events:none;
+    transition:.3s;
+}
+
+.music-status.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+@media(max-width:500px){
+    .entry-box{
+        padding:35px 22px;
+    }
+
+    .entry-emoji{
+        font-size:58px;
+    }
+
+    .music-status{
+        right:10px;
+        top:68px;
+    }
+}
+
+</style>
+
 </head>
-<body class="bg-gradient-to-b from-emerald-50 via-white to-emerald-50 text-gray-800">
-  <!-- Navbar -->
-  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-emerald-100">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between h-16">
-        <a href="#home" class="flex items-center gap-3 group">
-          <span class="inline-flex items-center justify-center w-10 h-10 rounded-2xl bg-emerald-600 text-white shadow-md">
-            <i class="ri-leaf-fill text-xl"></i>
-          </span>
-          <div class="leading-tight">
-            <div class="font-extrabold text-lg text-emerald-700 group-hover:text-emerald-800">दुर्गा कृषि तथा पशुपंक्षी फर्म डुङ्गेश्वर गा.पा.२ दैलेख</div>
-            <div class="text-xs text-emerald-600">Durga Krishi Tatha Pasupanchhi Form Dungeshwor Ga.Pa.2 Dailekh</div>
-          </div>
-        </a>
-        <nav class="hidden md:flex items-center gap-6 text-sm font-semibold">
-          <a href="#about" class="hover:text-emerald-700">हाम्रो बारे</a>
-          <a href="#products" class="hover:text-emerald-700">उत्पादन</a>
-          <a href="#services" class="hover:text-emerald-700">सेवाहरू</a>
-          <a href="#gallery" class="hover:text-emerald-700">ग्यालेरी</a>
-          <a href="#contact" class="hover:text-emerald-700">सम्पर्क</a>
-          <a href="https://wa.me/9749255178" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-600 text-white hover:bg-emerald-700 shadow">
-            <i class="ri-whatsapp-line text-lg"></i>
-            <span>whatsapp</span>
-          </a>
-        </nav>
-        <button id="menuBtn" class="md:hidden p-2 rounded-lg hover:bg-emerald-50"><i class="ri-menu-3-line text-2xl"></i></button>
-      </div>
-    </div>
-    <!-- Mobile menu -->
-    <div id="mobileMenu" class="md:hidden hidden border-t border-emerald-100 bg-white/90">
-      <div class="px-4 py-3 grid gap-2 text-sm font-semibold">
-        <a href="#about" class="hover:text-emerald-700">हाम्रो बारे</a>
-        <a href="#products" class="hover:text-emerald-700">उत्पादन</a>
-        <a href="#services" class="hover:text-emerald-700">सेवाहरू</a>
-        <a href="#gallery" class="hover:text-emerald-700">ग्यालेरी</a>
-        <a href="#contact" class="hover:text-emerald-700">सम्पर्क</a>
-        <a href="https://wa.me/9848192001" class="inline-flex items-center gap-2 mt-2 px-4 py-2 rounded-xl bg-emerald-600 text-white hover:bg-emerald-700 w-max">
-          <i class="ri-whatsapp-line text-lg"></i><span>WhatsApp</span>
-        </a>
-      </div>
-    </div>
-  </header>
-  <marquee style="background-color: lawngreen; height: 50px; margin-top:20px; border: solid; border-color: deeppink; color:black; font-size: 30px;" scrollamount="10">दुर्गा कृषि🥬🥦 तथा पशुपंक्षी🐄🐐 फर्म डुङ्गेश्वर गा.पा.२ दैलेख
-</marquee>
 
-  <!-- Hero -->
-  <section id="home" class="relative overflow-hidden">
-    <div class="absolute -top-24 -right-24 w-[40rem] h-[40rem] rounded-full bg-emerald-200 blur-3xl opacity-40"></div>
-    <div class="absolute -bottom-24 -left-24 w-[36rem] h-[36rem] rounded-full bg-emerald-100 blur-3xl opacity-60"></div>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24 grid lg:grid-cols-2 gap-10 items-center">
-      <div>
-        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold uppercase tracking-wider">
-          <i class="ri-seedling-line"></i> स्थानीय, ताजा, विश्वासिलो
-        </span>
-        <h1 class="mt-5 text-4xl sm:text-5xl font-extrabold leading-tight text-emerald-900">
-         दुर्गा कृषि तथा पशुपंक्षी फर्म डुङ्गेश्वर गा.पा.२ दैलेख  —
-          <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-lime-500">प्राकृतिक स्वादको ग्यारेन्टी</span>
-        </h1>
-        <p class="mt-4 text-lg text-gray-700 max-w-xl">
-          डुङ्गेश्वर गाउँपालिका–२, दैलेखस्थित हाम्रो फर्मबाट ताजा तरकारी, दुग्ध उत्पादन, कुखुरा र बाख्रापालनका 
-          स्थानीय बजारमा दैनिक आपूर्ति हुन्छ। आधुनिक तरिका, जैविक सोच।
+
+<body>
+
+
+<!-- =====================================
+     BIRTHDAY ENTRY / MUSIC START
+===================================== -->
+
+<div class="birthday-entry" id="birthdayEntry">
+    <div class="entry-box">
+        <div class="entry-emoji">🎂✨</div>
+        <h2>A Special Birthday Surprise</h2>
+        <p>
+            A beautiful birthday moment is waiting for you.<br>
+            Turn on the music and enter the surprise. ❤️
         </p>
-        <div class="mt-6 flex flex-wrap gap-3">
-          <a href="#products" class="shine inline-flex items-center gap-2 px-5 py-3 rounded-2xl bg-emerald-600 text-white font-semibold shadow hover:bg-emerald-700">
-            <i class="ri-shopping-basket-2-line text-xl"></i> उत्पादन हेर्नुहोस्
-          </a>
-          <a href="#contact" class="inline-flex items-center gap-2 px-5 py-3 rounded-2xl border border-emerald-600 text-emerald-700 font-semibold hover:bg-emerald-50">
-            <i class="ri-phone-fill text-xl"></i> अर्डर/सम्पर्क
-          </a>
-        </div>
-        <div class="mt-6 flex items-center gap-6 text-sm text-gray-600">
-          <div class="flex items-center gap-2"><i class="ri-plant-line"></i> जैविक उर्वरक</div>
-          <div class="flex items-center gap-2"><i class="ri-truck-line"></i> स्थानीय डेलिभरी</div>
-          <div class="flex items-center gap-2"><i class="ri-shield-check-line"></i> स्वच्छता मापदण्ड</div>
-        </div>
-      </div>
-      <div class="relative">
-        <div class="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl ring-1 ring-emerald-200">
-          <a href="photo.jpg">
-          <img src="photo.jpg" alt="Durga Krishi Tatha pasupanchhi form dungeshwor ga.pa.2 dailekh" class="w-full h-full object-cover"/></a>
-        </div>
-        <div class="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl border border-emerald-100 p-4 w-64">
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white grid place-items-center"><i class="ri-leaf-line text-xl"></i></div>
-            <div>
-              <div class="font-bold">दैनिक ताजा</div>
-              <div class="text-xs text-gray-600">फार्मबाट सिधै तपाईं सम्म</div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+        <button class="enter-button" id="enterBirthdayButton">
+            🎵 Enter Birthday 🎉
+        </button>
     </div>
-  </section>
+</div>
 
-  <!-- About -->
-  <section id="about" class="py-16 sm:py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid lg:grid-cols-2 gap-10 items-center">
-        <div>
-          <h2 class="text-3xl sm:text-4xl font-extrabold text-emerald-900">हाम्रो बारे</h2>
-          <p class="mt-4 text-gray-700 leading-relaxed">
-            दुर्गा कृषि फर्मले २०७५ सालदेखि दैलेखमा सुरक्षित र गुणस्तरीय कृषि उत्पादनमा
-            ध्यान दिदै आएको छ। 
-          </p>
-          <ul class="mt-6 space-y-3 text-gray-700">
-            <li class="flex items-start gap-3"><i class="ri-check-double-line text-emerald-600 mt-1"></i> कृषि परामर्श र तालिम</li>
-            <li class="flex items-start gap-3"><i class="ri-check-double-line text-emerald-600 mt-1"></i> वडा–वडा आपूर्ति सहकार्य</li>
-            <li class="flex items-start gap-3"><i class="ri-check-double-line text-emerald-600 mt-1"></i> गुणस्तर परीक्षण र स्वच्छता</li>
-          </ul>
-        </div>
-        <div class="grid grid-cols-2 gap-4">
-          <a href="aaa.png">
-          <img class="rounded-2xl shadow-md aspect-[4/3] object-cover" src="aaa.png"/>
-        </a>
-        <a href="ffff.png">
-          <img class="rounded-2xl shadow-md aspect-[4/3] object-cover" src="ffff.png"/>
-        </a>
-        <a href="vvv.jpg">
-          <img class="rounded-2xl shadow-md aspect-[4/3] object-cover" src="vvv.jpg"/>
-        </a>
-        <a href="vv.jpg">
-          <img class="rounded-2xl shadow-md aspect-[4/3] object-cover" src="vv.jpg"/>
-        </a>
-        <a href="v.jpg">
-           <img class="rounded-2xl shadow-md aspect-[4/3] object-cover" src="v.jpg"/>
-         </a>
-        </div>
-      </div>
+
+
+<!-- =====================================
+     BACKGROUND
+===================================== -->
+
+<div class="background">
+
+    <div class="orb orb1"></div>
+
+    <div class="orb orb2"></div>
+
+    <div class="orb orb3"></div>
+
+</div>
+
+
+<!-- =====================================
+     BALLOONS
+===================================== -->
+
+<div class="balloon b1"></div>
+
+<div class="balloon b2"></div>
+
+<div class="balloon b3"></div>
+
+<div class="balloon b4"></div>
+
+
+<!-- =====================================
+     MUSIC
+===================================== -->
+
+<audio
+    id="birthdayMusic"
+    loop
+    preload="auto"
+    autoplay>
+
+    <source
+        src="Mp3.mp3"
+        type="audio/mpeg">
+
+</audio>
+
+
+<div class="music-control">
+
+    <button
+        class="music-button"
+        id="musicButton"
+        onclick="toggleMusic()"
+        aria-label="Play or pause birthday music">
+
+        🎵
+
+    </button>
+
+</div>
+
+<div class="music-status" id="musicStatus">
+    🎵 Birthday music is playing
+</div>
+
+
+<!-- =====================================
+     MAIN
+===================================== -->
+
+<div class="container">
+
+<div class="card">
+
+
+    <div class="top">
+
+        A Special Day For (Bhauju) Special Person
+
     </div>
-  </section>
-
-  <!-- Products -->
-  <section id="products" class="py-16 sm:py-20 bg-emerald-50/70">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-end justify-between gap-6 mb-8">
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-emerald-900">हाम्रा उत्पादन</h2>
-        <a href="#contact" class="hidden sm:inline-flex items-center gap-2 text-sm font-semibold text-emerald-700 hover:text-emerald-800">थोक अर्डरका लागि सम्पर्क <i class="ri-arrow-right-up-line"></i></a>
-      </div>
-
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Card template -->
-        <div class="bg-white rounded-2xl shadow border border-emerald-100 overflow-hidden">
-          <img class="rounded-2xl shadow-md aspect-[4/3] object-cover" src="Agriculture.jpg"/>
-        </a>
-          <div class="p-5">
-            <h3 class="font-extrabold text-xl">ताजा सागसब्जी</h3>
-            <p class="mt-2 text-sm text-gray-600">काक्रा, बन्दा, आलु, टमाटर, धनियाँ— मौसमी रूपमा उपलब्ध।</p>
-            <div class="mt-4 flex items-center justify-between">
-              <a href="#contact" class="inline-flex items-center gap-2 text-emerald-700 font-semibold hover:text-emerald-800">अर्डर<i class="ri-shopping-cart-2-line"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="bg-white rounded-2xl shadow border border-emerald-100 overflow-hidden">
-          <img class="w-full aspect-video object-cover" src="https://images.unsplash.com/photo-1518563077661-23ad435d7bd7?q=80&w=1600&auto=format&fit=crop" alt="Milk">
-          <div class="p-5">
-            <h3 class="font-extrabold text-xl">दुग्ध उत्पादन</h3>
-            <p class="mt-2 text-sm text-gray-600">शुद्ध दूध, दही, — बिहान/साँझ ।</p>
-            <div class="mt-4 flex items-center justify-between">
-              <span class="text-emerald-700 font-bold">रु 30 / लि.</span>
-              <a href="#contact" class="inline-flex items-center gap-2 text-emerald-700 font-semibold hover:text-emerald-800">अर्डर<i class="ri-shopping-cart-2-line"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="bg-white rounded-2xl shadow border border-emerald-100 overflow-hidden">
-          <img class="rounded-2xl shadow-md aspect-[4/3] object-cover" src="Poultry.jpg" alt="Poultry">
-          <div class="p-5">
-            <h3 class="font-extrabold text-xl">कुखुरा/लाेकल</h3>
-            <p class="mt-2 text-sm text-gray-600">   </p>
-            <div class="mt-4 flex items-center justify-between">
-              <span class="text-emerald-700 font-bold">रु 600 / के.जी.</span>
-              <a href="#contact" class="inline-flex items-center gap-2 text-emerald-700 font-semibold hover:text-emerald-800">अर्डर<i class="ri-shopping-cart-2-line"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="bg-white rounded-2xl shadow border border-emerald-100 overflow-hidden">
-          <img class="w-full aspect-video object-cover" src="goat.jpg" alt="Goat farming">
-          <div class="p-5">
-            <h3 class="font-extrabold text-xl">बाख्रापालन</h3>
-            <p class="mt-2 text-sm text-gray-600">   </p>
-            <div class="mt-4 flex items-center justify-between">
-              <span class="text-emerald-700 font-bold">दर सहमती अनुसार</span>
-              <a href="#contact" class="inline-flex items-center gap-2 text-emerald-700 font-semibold hover:text-emerald-800">सम्पर्क<i class="ri-phone-line"></i></a>
-            </div>
-          </div>
-        </div>
 
 
-        <div class="bg-white rounded-2xl shadow border border-emerald-100 overflow-hidden">
-          <img class="w-full aspect-video object-cover" src=".jpg" alt="Seeds"></a>
-          <div class="p-5">
-            <h3 class="font-extrabold text-xl">बिउ तथा नर्सरी</h3>
-            <p class="mt-2 text-sm text-gray-600">उच्च अंकुरण भएको बिउ र बिरुवा वितरण।</p>
-            <div class="mt-4 flex items-center justify-between">
-              <span class="text-emerald-700 font-bold">विशेष छुट उपलब्ध</span>
-              <a href="#contact" class="inline-flex items-center gap-2 text-emerald-700 font-semibold hover:text-emerald-800">सम्पर्क<i class="ri-phone-line"></i></a>
-            </div>
-          </div>
-        </div>
+    <!-- CHANGE NAME HERE -->
 
-        <div class="bg-white rounded-2xl shadow border border-emerald-100 overflow-hidden">
-          <img class="w-full aspect-video object-cover" src=".jpg" alt="Compost"></a>
-          <div class="p-5">
-            <h3 class="font-extrabold text-xl">जैविक मल/कम्पोस्ट</h3>
-            <p class="mt-2 text-sm text-gray-600">घरमै बनेको कम्पोस्ट मल र तरल जैविक मल।</p>
-            <div class="mt-4 flex items-center justify-between">
-              <span class="text-emerald-700 font-bold">थोकमा छुट</span>
-              <a href="#contact" class="inline-flex items-center gap-2 text-emerald-700 font-semibold hover:text-emerald-800">सम्पर्क<i class="ri-phone-line"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="name3d">
+
+Bhauju
+
     </div>
-  </section>
-
-  <!-- Services -->
-  <section id="services" class="py-16 sm:py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl sm:text-4xl font-extrabold text-emerald-900">हाम्रा सेवाहरू</h2>
-      <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div class="p-6 rounded-2xl border border-emerald-100 shadow-sm bg-gradient-to-b from-white to-emerald-50/40">
-          <i class="ri-customer-service-2-line text-3xl"></i>
-          <h3 class="mt-3 font-extrabold text-lg">कृषि परामर्श</h3>
-          <p class="mt-1 text-sm text-gray-600">पोषण व्यवस्थापन, रोग/किरा नियन्त्रण, आधुनिक प्रविधि।</p>
-        </div>
-        <div class="p-6 rounded-2xl border border-emerald-100 shadow-sm bg-gradient-to-b from-white to-emerald-50/40">
-          <i class="ri-truck-line text-3xl"></i>
-          <h3 class="mt-3 font-extrabold text-lg">डेलिभरी सेवा</h3>
-          <p class="mt-1 text-sm text-gray-600">दैलेख र नजिकका क्षेत्रहरूमा नियमित आपूर्ति।</p>
-        </div>
-        <div class="p-6 rounded-2xl border border-emerald-100 shadow-sm bg-gradient-to-b from-white to-emerald-50/40">
-          <i class="ri-store-line text-3xl"></i>
-          <h3 class="mt-3 font-extrabold text-lg">थोक/खुद्रा बिक्री</h3>
-          <p class="mt-1 text-sm text-gray-600">हामीबाट सिधै वा भागिदार पसलमार्फत बिक्री।</p>
-        </div>
-        <div class="p-6 rounded-2xl border border-emerald-100 shadow-sm bg-gradient-to-b from-white to-emerald-50/40">
-          <i class="ri-graduation-cap-line text-3xl"></i>
-          <h3 class="mt-3 font-extrabold text-lg">तालिम र भ्रमण</h3>
-          <p class="mt-1 text-sm text-gray-600">विद्यार्थी/किसानका लागि डेमो फार्म भ्रमण तथा तालिम।</p>
-        </div>
-      </div>
-    </div>
-  </section>
- 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      margin: 0;
-      padding: 20px;
-    }
-    h1 {
-      text-align: center;
-    }
-    .gallery {
-      display: flex;
-      overflow-x: auto;
-      gap: 12px;
-      padding: 10px;
-      scroll-behavior: smooth;
-    }
-    .gallery img {
-      width: 200px;   /* set image size */
-      height: 150px;  /* fixed height */
-      object-fit: cover;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-      flex-shrink: 0;
-    }
-  </style>
 
 
-  <h1>फाेटाे ग्यालरी</h1>
+    <h1 class="title">
 
-  <div class="gallery">
-    <a href="orange.jpg">
-    <img src="orange.jpg" alt="Photo orange">
-  </a>
-  <a href="vvv.jpg">
-    <img src="vvv.jpg" alt="Photo vvv">
-  </a>
-    <a href="3.jpg">
-    <img src="3.jpg" alt="Photo 3">
-  </a>
-    <a href="4.jpg">
-    <img src="4.jpg" alt="Photo 4">
-  </a>
-    <a href="5.jpg">
-    <img src="5.jpg" alt="Photo 5">
-  </a>
-    <a href="6.jpg">
-    <img src="6.jpg" alt="Photo 6">
-  </a>
-    <a href="7.jpg">
-    <img src="7.jpg" alt="Photo 7">
-  </a>
-    <a href="8.jpg">
-    <img src="8.jpg" alt="Photo 8">
-  </a>
-    <a href="t.jpg">
-    <img src="t.jpg" alt="Photo t">
-  </a>
-   <a href="a.jpg">
-    <img src="a.jpg" alt="Photo a">
-  </a>
-   <a href="o.jpg">
-    <img src="o.jpg" alt="Photo o">
-  </a>
-   <a href="oooo.jpg">
-    <img src="oooo.jpg" alt="Photo oooo">
-  </a>
-  <a href=".jpg">
-    <img src=".jpg" alt="Photo ">
-  </a>
-  <a href=".jpg">
-    <img src=".jpg" alt="Photo ">
-  </a>
-  </div>
-</body>
-</html>
+        Happy Birthday
+
+    </h1>
 
 
+    <p class="subtitle">
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      margin: 0;
-      padding: 20px;
-      text-align: center;
-    }
+        🎉 Wishing You Happiness,
+        Success & Beautiful Memories 🎉
 
-    h1 {
-      font-weight: bold;
-      font-size: 40px;
-      margin-bottom: 20px;
-      color: green;
-    }
+    </p>
 
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
 
-    .gallery video {
-      width: 100%;
-      height: auto;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      transition: transform 0.3s;
-    }
+    <!-- =================================
+         MAIN SECTION
+    ================================= -->
 
-    .gallery video:hover {
-      transform: scale(1.05);
-    }
-  </style>
-  <h1>भिडियो ग्यालरी</h1>
+    <div class="main">
 
-  <div class="gallery">
-    <video controls>
-      <source src="paddy1.mp4" type="video/mp4">
-    </video>
-    <video controls>
-      <source src="1.mp4" type="video/mp4">
-    </video>
-    <video controls>
-      <source src="2.mp4" type="video/mp4">
-    </video>
-    <video controls>
-      <source src="3.mp4" type="video/mp4">
-    </video>
-    <video controls>
-      <source src="4.mp4" type="video/mp4">
-    </video>
-    <video controls>
-      <source src="paddy1.mp4" type="video/mp4">
-    </video>
-  </div>
 
-  <!-- Testimonials / CTA -->
-  <section class="py-16 sm:py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-3 gap-8 items-center">
-      <div class="lg:col-span-2">
-        <div class="grid sm:grid-cols-2 gap-6">
-          <div class="p-6 rounded-2xl border border-emerald-100 shadow-sm bg-gradient-to-b from-white to-emerald-50/40">
-            <div class="flex items-center gap-2 text-emerald-700"><i class="ri-double-quotes-l"></i><span class="font-bold">ग्राहकको प्रतिक्रिया</span></div>
-            <p class="mt-2 text-gray-700">“दुर्गा कृषि तथा पशुपंक्षी फर्म डुङ्गेश्वर गा.पा.२ दैलेख बाट आउने फलफुल, सागसब्जी🥦🥬🍅🥝🥕, नर्सरी काे अलैँची,  अलैँची काे फल, सु 🍊🍊 , कागती काे बिरुवा, etc पाहिनछ। ”</p>
-            <div class="mt-3 text-sm text-gray-600">— स्थानीय ग्राहक, दैलेख</div>
-          </div>
-          <div class="p-6 rounded-2xl border border-emerald-100 shadow-sm bg-gradient-to-b from-white to-emerald-50/40">
-            <div class="flex items-center gap-2 text-emerald-700"><i class="ri-shield-check-line"></i><span class="font-bold">स्वच्छता र मापदण्ड</span></div>
-            <p class="mt-2 text-gray-700">स्वास्थ्य जोगाउन अपनाइने सफा राख्ने अभ्यास/स्वच्छतालाई कायम राख्न तोकिएका नियम र स्तर</p>
-          </div>
-        </div>
-      </div>
-      <div class="p-6 rounded-3xl bg-gradient-to-br from-emerald-600 to-lime-500 text-white shadow-2xl">
-        <h3 class="text-2xl font-extrabold">थोक अर्डर छ?</h3>
-        <p class="mt-2 text-white/90">हामीसँग प्रत्यक्ष सम्झौता गरेर नियमित आपूर्ति पाउन सक्नुहुन्छ।</p>
-        <a href="tel:+9779800000000" class="mt-4 inline-flex items-center gap-2 px-5 py-3 rounded-2xl bg-white/20 hover:bg-white/30 font-semibold">
-          <i class="ri-phone-fill"></i> अहिले फोन गर्नुहोस्
-        </a>
-      </div>
-    </div>
-  </section>
+        <!-- SLIDESHOW -->
 
-  <!-- Contact -->
-  <section id="contact" class="py-16 sm:py-20 bg-emerald-50/70">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid lg:grid-cols-2 gap-8">
-        <div class="p-6 rounded-3xl bg-white shadow border border-emerald-100">
-          <h2 class="text-3xl font-extrabold text-emerald-900">सम्पर्क</h2>
-          <p class="mt-2 text-gray-700">डुङ्गेश्वर गा.पा.–२, दैलेख</p>
-          <ul class="mt-4 space-y-2 text-gray-700">
-            <li class="flex items-center gap-3"><i class="ri-phone-line text-emerald-700"></i> <a href="tel:9848192001" class="hover:underline">+9848192001</a></li>
-            <li class="flex items-center gap-3"><i class="ri-phone-line text-emerald-700"></i> <a href="tel:9866645786" class="hover:underline">+9866645786</a>
-            <li class="flex items-center gap-3"><i class="ri-mail-line text-emerald-700"></i> <a href="mailto:info@durgakrishi.com" class="hover:underline">tikarambasnet213@gmail.com</a></li>
-          
-          </ul>
-          <form id="contactForm" class="mt-6 grid gap-3">
-            <div>
-              <label class="text-sm font-semibold">नाम</label>
-              <input name="name" required class="w-full mt-1 px-4 py-3 rounded-xl border border-emerald-200 focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="Enter your name" />
+        
+
+
+<div class="slideshow"
+             id="slideshow">
+
+
+            <!-- CHANGE PHOTOS -->
+
+            <img
+                class="slide active"
+                src="photos/photo1.jpg"
+                alt="Birthday Photo 1">
+
+
+            <img
+                class="slide"
+                src="photos/photo2.jpg"
+                alt="Birthday Photo 2">
+
+
+            <img
+                class="slide"
+                src="photos/photo3.jpg"
+                alt="Birthday Photo 3">
+
+
+            <img
+                class="slide"
+                src="photos/photo4.jpg"
+                alt="Birthday Photo 4">
+
+
+            <img
+                class="slide"
+                src="photos/photo5.jpg"
+                alt="Birthday Photo 5">
+
+
+            <img
+                class="slide"
+                src="photos/photo6.jpg"
+                alt="Birthday Photo 6">
+
+
+            <img
+                class="slide"
+                src="photos/photo7.jpg"
+                alt="Birthday Photo 7">
+
+
+            <img
+                class="slide"
+                src="photos/photo8.jpg"
+                alt="Birthday Photo 8">
+
+
+            <img
+                class="slide"
+                src="photos/photo9.jpg"
+                alt="Birthday Photo 9">
+
+
+            <img
+                class="slide"
+                src="photos/photo10.jpg"
+                alt="Birthday Photo 10">
+
+
+            <div class="slide-overlay"></div>
+
+
+            <div
+                class="dots"
+                id="dots">
+
             </div>
-            <div class="grid sm:grid-cols-2 gap-3">
-              <div>
-                <label class="text-sm font-semibold">फोन</label>
-                <input name="phone" required class="w-full mt-1 px-4 py-3 rounded-xl border border-emerald-200 focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="Enter your phone number" />
-              </div>
-              <div>
-                <label class="text-sm font-semibold">इमेल</label>
-                <input name="email" type="email" class="w-full mt-1 px-4 py-3 rounded-xl border border-emerald-200 focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="Enter your gmail" />
-              </div>
+
+
+        </div>
+
+
+        <!-- MESSAGE -->
+
+        <div class="message">
+
+
+            <div class="small">
+
+                Dear Special One ❤️
+
             </div>
-            <div>
-              <label class="text-sm font-semibold">सन्देश</label>
-              <textarea name="message" rows="4" required class="w-full mt-1 px-4 py-3 rounded-xl border border-emerald-200 focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="यहाँ लेख्नुहोस्…"></textarea>
+
+
+            <!-- CHANGE NAME -->
+
+            <div class="person-name">
+
+               Lumina Gurung
+
             </div>
-            <button class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-emerald-600 text-white font-semibold hover:bg-emerald-700">
-              <i class="ri-send-plane-2-line"></i> सन्देश पठाउनुहोस्
+
+
+            <p class="intro">
+
+                Today is not just another day.
+                It is the day a wonderful person
+                came into this world. ❤️
+
+            </p>
+
+
+            <!-- SURPRISE BUTTON -->
+
+            <button
+                class="surprise-button"
+                onclick="openSurprise()">
+
+                🎁 Open Your Surprise
+
             </button>
-            <p id="formMsg" class="hidden text-sm"></p>
-          </form>
+
+
+            <!-- SURPRISE -->
+
+            <div
+                class="surprise"
+                id="surprise">
+
+
+                <h2>
+
+                    🎉 Surprise! 🎉
+
+                </h2>
+
+
+                <p>
+
+                    "हाम्रो परिवारको शोभा बढाउनुहुने प्रिय भाउजुलाई जन्मदिनको धेरै धेरै शुभकामना। ईश्वरले तपाईँलाई सुस्वास्थ्य, दीर्घायु र उत्तरोत्तर प्रगतिको वरदान दिउन्।"
+
+                    <br><br>
+भगवानले तपाईंको आँखामा कहिल्यै दुःखका आँसु नदिऊन्, सधैं खुशी, स्वास्थ्य र मुस्कान दिऊन्। तपाईंले अरूलाई दिनुभएको जति माया र खुशी, जीवनले तपाईंलाई त्यसभन्दा धेरै फिर्ता देओस्। 🙏🌸
+                    <br><br>
+
+                   once again happy birthday to you vauju!🎂💐
+
+                    <br><br>
+
+                    <strong>
+                       जन्मदिनको धेरै–धेरै शुभकामना भाउजु! 🎂🥰
+सधैं यस्तै मायालु र हँसिलो रहनुहोस्। धेरै माया❤️🎂✨
+                    </strong>
+
+                </p>
+
+
+            </div>
+
+
+            <!-- CAKE -->
+
+            <div class="cake">
+
+                <div class="candle"></div>
+
+                <div class="flame"></div>
+
+                <div class="cream"></div>
+
+                <div class="cake-body"></div>
+
+            </div>
+
+
         </div>
-        <div class="p-2 lg:p-0">
-          <div class="rounded-3xl overflow-hidden shadow ring-1 ring-emerald-200 h-[420px] bg-white grid place-items-center">
-            <!-- Replace the iframe src with your Google Map embed link if available -->
-            <iframe class=<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2654.5758281054514!2d81.73369747408213!3d28.78114047731918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a293004face06d%3A0xabcd4d304a676ef2!2zRHVyZ2EgQWdyaWN1bHR1cmUgRm9ybSAo4KSm4KSw4KWN4KSX4KS-IOCkleClg-CksOCljeCkt-CkvyDgpKTgpKXgpL4g4KSq4KS24KWB4KSq4KSo4KWN4KSb4KS_IOCkq-CksOCljeCkrik!5e1!3m2!1sen!2snp!4v1755188367806!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> title="Map"></iframe>
-          </div>
-          <div class="mt-4 text-sm text-gray-600">दुर्गा कृषि तथा पशुपंक्षी फर्म डुङ्गेश्वर गा.पा.२ दैलेख लाेकेसन (map)</div>
-        </div>
-      </div>
+
+
     </div>
-  </section>
 
-  <!-- Footer -->
-  <footer class="py-10 bg-emerald-900 text-emerald-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-        <div>
-          <div class="flex items-center gap-2 font-extrabold text-lg"><i class="ri-leaf-fill"></i> दुर्गा कृषि फर्म</div>
-          <p class="mt-2 text-emerald-100/80 text-sm">स्थानीय किसानसँग हातेमालो गर्दै स्वस्थ र ताजा उत्पादन तपाईंको घरदैलोमा।</p>
+
+    <!-- =================================
+         GALLERY
+    ================================= -->
+
+    <div class="gallery-section">
+
+
+        <h2 class="section-title">
+
+            📸 Beautiful Memories
+
+        </h2>
+
+
+        <p class="section-subtitle">
+
+            Every picture tells a beautiful story ❤️
+
+        </p>
+
+
+        <div class="gallery">
+
+
+            <div
+                class="gallery-item"
+                onclick="openLightbox(0)">
+
+                <img
+                    src="photos/photo1.jpg"
+                    alt="Memory 1">
+
+                <div class="overlay">
+                    🔍
+                </div>
+
+            </div>
+
+
+            <div
+                class="gallery-item"
+                onclick="openLightbox(1)">
+
+                <img
+                    src="photos/photo2.jpg"
+                    alt="Memory 2">
+
+                <div class="overlay">
+                    🔍
+                </div>
+
+            </div>
+
+
+            <div
+                class="gallery-item"
+                onclick="openLightbox(2)">
+
+                <img
+                    src="photos/photo3.jpg"
+                    alt="Memory 3">
+
+                <div class="overlay">
+                    🔍
+                </div>
+
+            </div>
+
+
+            <div
+                class="gallery-item"
+                onclick="openLightbox(3)">
+
+                <img
+                    src="photos/photo4.jpg"
+                    alt="Memory 4">
+
+                <div class="overlay">
+                    🔍
+                </div>
+
+            </div>
+
+
+            <div
+                class="gallery-item"
+                onclick="openLightbox(4)">
+
+                <img
+                    src="photos/photo5.jpg"
+                    alt="Memory 5">
+
+                <div class="overlay">
+                    🔍
+                </div>
+
+            </div>
+
+
+            <div
+                class="gallery-item"
+                onclick="openLightbox(5)">
+
+                <img
+                    src="photos/photo6.jpg"
+                    alt="Memory 6">
+
+                <div class="overlay">
+                    🔍
+                </div>
+
+            </div>
+
+
+            <div
+                class="gallery-item"
+                onclick="openLightbox(6)">
+
+                <img
+                    src="photos/photo7.jpg"
+                    alt="Memory 7">
+
+                <div class="overlay">
+                    🔍
+                </div>
+
+            </div>
+
+
+            <div
+                class="gallery-item"
+                onclick="openLightbox(7)">
+
+                <img
+                    src="photos/photo8.jpg"
+                    alt="Memory 8">
+
+                <div class="overlay">
+                    🔍
+                </div>
+
+            </div>
+
+
+            <div
+                class="gallery-item"
+                onclick="openLightbox(8)">
+
+                <img
+                    src="photos/photo9.jpg"
+                    alt="Memory 9">
+
+                <div class="overlay">
+                    🔍
+                </div>
+
+            </div>
+
+
+            <div
+                class="gallery-item"
+                onclick="openLightbox(9)">
+
+                <img
+                    src="photos/photo10.jpg"
+                    alt="Memory 10">
+
+                <div class="overlay">
+                    🔍
+                </div>
+
+            </div>
+
+
         </div>
-        <div>
-          <div class="font-bold">छिटो लिङ्क</div>
-          <ul class="mt-2 space-y-1 text-sm">
-            <li><a href="#about" class="hover:underline">हाम्रो बारे</a></li>
-            <li><a href="#products" class="hover:underline">उत्पादन</a></li>
-            <li><a href="#services" class="hover:underline">सेवाहरू</a></li>
-            <li><a href="#contact" class="hover:underline">सम्पर्क</a></li>
-          </ul>
-        </div>
-        <div>
-          <div class="font-bold">सम्पर्क</div>
-          <ul class="mt-2 space-y-1 text-sm">
-            <li>डुङ्गेश्वर–२, दैलेख</li>
-            <li>फोन: 9848192001</li>
-            <li>इमेल: tikarambasnet213@gmail.com</li>
-          </ul>
-        </div>
-        <div>
-          <div class="font-bold">सोसल</div>
-          <div class="mt-2 flex gap-3 text-xl">
-            <a href="https://www.facebook.com/profile.php?id=100068645624356" aria-label="Facebook" class="hover:text-emerald-300"><i class="ri-facebook-circle-fill"></i></a>
-            <a href="#" aria-label="Instagram" class="hover:text-emerald-300"><i class="ri-instagram-line"></i></a>
-            <a href="www.youtube.com/@Tikaram786" aria-label="YouTube" class="hover:text-emerald-300"><i class="ri-youtube-fill"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="mt-8 pt-6 border-t border-emerald-800 text-xs text-emerald-200">© <span id="year"></span>Durga Krishi Tatha Pasupanchhi Farm Dungeshwor Ga.Pa.2 Dailekh</div>
+
     </div>
-  </footer>
 
-  <script>
-    // Mobile menu toggle
-    const menuBtn = document.getElementById('menuBtn');
-    const mobileMenu = document.getElementById('mobileMenu');
-    menuBtn?.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
 
-    // Year
-    document.getElementById('year').textContent = new Date().getFullYear();
+    <div class="footer">
 
-    // Gallery images
-    const gallery = document.getElementById('galleryGrid');
-    const imgCardTpl = document.getElementById('imgCard');
-    const baseImgs = [
-      'https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?q=80&w=1200&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1492496913980-501348b61469?q=80&w=1200&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1200&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=1200&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1606713495701-8fba9c05767e?q=80&w=1200&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1461354464878-ad92f492a5a0?q=80&w=1200&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1560807707-8cc77767d783?q=80&w=1200&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1461354464783-7eda3a2bca58?q=80&w=1200&auto=format&fit=crop'
-    ];
-    function renderImages(list){
-      gallery.innerHTML='';
-      list.forEach(src=>{
-        const node = imgCardTpl.content.cloneNode(true);
-        node.querySelector('img').src = src;
-        gallery.appendChild(node);
-      })
+       धेरै माया छ। हजुर र दाईको सम्‍बन्‍ध अझै यसरि नै अगाडि बढ्दै गरेको देख्‍न पाम भाउजु।💖🎂
+
+        <br>
+
+        <span>
+            May your dreams come true ✨
+        </span>
+
+    </div>
+
+
+</div>
+
+</div>
+
+
+<!-- =====================================
+     LIGHTBOX
+===================================== -->
+
+<div
+    class="lightbox"
+    id="lightbox">
+
+
+    <div
+        class="close"
+        onclick="closeLightbox()">
+
+        ×
+
+    </div>
+
+
+    <button
+        class="prev"
+        onclick="changePhoto(-1)">
+
+        ❮
+
+    </button>
+
+
+    <img
+        id="lightboxImage"
+        src=""
+        alt="Full Photo">
+
+
+    <button
+        class="next"
+        onclick="changePhoto(1)">
+
+        ❯
+
+    </button>
+
+
+</div>
+
+
+
+<script>
+
+/* =========================================
+   MUSIC
+========================================= */
+
+const music =
+    document.getElementById("birthdayMusic");
+
+const musicButton =
+    document.getElementById("musicButton");
+
+const birthdayEntry =
+    document.getElementById("birthdayEntry");
+
+const enterBirthdayButton =
+    document.getElementById("enterBirthdayButton");
+
+const musicStatus =
+    document.getElementById("musicStatus");
+
+let musicPlaying = false;
+
+
+/* PLAY MUSIC */
+function startMusic(){
+
+    const playPromise = music.play();
+
+    if(playPromise !== undefined){
+
+        playPromise
+            .then(function(){
+
+                musicPlaying = true;
+                musicButton.innerHTML = "🔊";
+                showMusicStatus();
+
+            })
+            .catch(function(){
+
+                musicPlaying = false;
+                musicButton.innerHTML = "🎵";
+
+            });
+
     }
-    renderImages(baseImgs);
 
-    // Expand gallery
-    const toggleBtn = document.getElementById('toggleGallery');
-    let expanded = false;
-    toggleBtn?.addEventListener('click',()=>{
-      expanded = !expanded;
-      const moreImgs = [
-        'https://images.unsplash.com/photo-1542831371-d531d36971e6?q=80&w=1200&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1506806732259-39c2d0268443?q=80&w=1200&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1490772888775-55fceea286b0?q=80&w=1200&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1541075211678-b7c56a7912a4?q=80&w=1200&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1505575972945-338c3fdde0b2?q=80&w=1200&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1472145246862-b24cf25c1d95?q=80&w=1200&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1516298773066-c48f8e9bd92b?q=80&w=1200&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?q=80&w=1200&auto=format&fit=crop'
-      ];
-      renderImages(expanded ? baseImgs.concat(moreImgs) : baseImgs);
-      toggleBtn.textContent = expanded ? 'कम फोटो देखाउनुहोस्' : 'अझै फोटो देखाउनुहोस्';
-    });
+}
 
-    // Simple contact form (front-end only)
-    const form = document.getElementById('contactForm');
-    const msg = document.getElementById('formMsg');
-    form?.addEventListener('submit', (e)=>{
-      e.preventDefault();
-      const data = Object.fromEntries(new FormData(form).entries());
-      // Here you'd send data to your backend or Google Sheet/Email service
-      console.log('Form submit', data);
-      msg.className = 'text-emerald-700 text-sm mt-2';
-      msg.textContent = 'धन्यवाद! तपाईंको सन्देश प्राप्त भयो। चाँडै सम्पर्क हुनेछ।';
-      form.reset();
-      setTimeout(()=>{ msg.className='hidden'; }, 5000);
-    });
+
+/* ENTRY BUTTON */
+enterBirthdayButton.addEventListener(
+    "click",
+    function(){
+
+        birthdayEntry.classList.add("hide");
+
+        startMusic();
+
+        createConfetti();
+        createHearts();
+
+        setTimeout(function(){
+
+            birthdayEntry.style.display = "none";
+
+        }, 900);
+
+    }
+);
+
+
+/* PLAY / PAUSE BUTTON */
+function toggleMusic(){
+
+    if(music.paused){
+
+        startMusic();
+
+    }
+    else{
+
+        music.pause();
+
+        musicPlaying = false;
+        musicButton.innerHTML = "🎵";
+
+        hideMusicStatus();
+
+    }
+
+}
+
+
+/* MUSIC STATUS */
+function showMusicStatus(){
+
+    musicStatus.classList.add("show");
+
+    clearTimeout(window.musicStatusTimer);
+
+    window.musicStatusTimer =
+        setTimeout(function(){
+
+            musicStatus.classList.remove("show");
+
+        }, 2500);
+
+}
+
+
+function hideMusicStatus(){
+
+    musicStatus.classList.remove("show");
+
+}
+
+
+/* =========================================
+   SLIDESHOW
+========================================= */
+
+const slides =
+    document.querySelectorAll(
+        ".slide"
+    );
+
+const dotsContainer =
+    document.getElementById(
+        "dots"
+    );
+
+let currentSlide = 0;
+
+
+/* CREATE DOTS */
+
+slides.forEach(
+    function(slide,index){
+
+        const dot =
+            document.createElement(
+                "div"
+            );
+
+        dot.className = "dot";
+
+        if(index === 0){
+
+            dot.classList.add(
+                "active"
+            );
+
+        }
+
+        dot.onclick =
+            function(){
+
+                showSlide(index);
+
+            };
+
+        dotsContainer.appendChild(
+            dot
+        );
+
+    }
+);
+
+
+const dots =
+    document.querySelectorAll(
+        ".dot"
+    );
+
+
+function showSlide(index){
+
+    slides.forEach(
+        function(slide){
+
+            slide.classList.remove(
+                "active"
+            );
+
+        }
+    );
+
+
+    dots.forEach(
+        function(dot){
+
+            dot.classList.remove(
+                "active"
+            );
+
+        }
+    );
+
+
+    slides[index]
+        .classList.add("active");
+
+
+    dots[index]
+        .classList.add("active");
+
+
+    currentSlide = index;
+
+}
+
+
+/* AUTO SLIDESHOW */
+
+setInterval(
+    function(){
+
+        currentSlide++;
+
+        if(
+            currentSlide >=
+            slides.length
+        ){
+
+            currentSlide = 0;
+
+        }
+
+        showSlide(
+            currentSlide
+        );
+
+    },
+    4000
+);
+
+
+/* =========================================
+   SURPRISE
+========================================= */
+
+function openSurprise(){
+
+    const surprise =
+        document.getElementById(
+            "surprise"
+        );
+
+    surprise.classList.toggle(
+        "show"
+    );
+
+
+    createConfetti();
+
+    createHearts();
+
+
+    /* TRY TO START MUSIC */
+
+    music.play()
+        .then(
+            function(){
+
+                musicPlaying = true;
+
+                musicButton.innerHTML =
+                    "🔊";
+
+            }
+        )
+        .catch(
+            function(){
+
+                /* Browser may block autoplay */
+
+            }
+        );
+
+}
+
+
+/* =========================================
+   CONFETTI
+========================================= */
+
+function randomColor(){
+
+    const colors = [
+
+        "#ff4d9d",
+        "#00eaff",
+        "#ffd43b",
+        "#8b5cf6",
+        "#ffffff",
+        "#ff7043",
+        "#4ade80"
+
+    ];
+
+    return colors[
+        Math.floor(
+            Math.random() *
+            colors.length
+        )
+    ];
+
+}
+
+
+function createConfetti(){
+
+    for(
+        let i=0;
+        i<140;
+        i++
+    ){
+
+        const confetti =
+            document.createElement(
+                "div"
+            );
+
+        confetti.className =
+            "confetti";
+
+
+        confetti.style.left =
+            Math.random()*100 +
+            "vw";
+
+
+        confetti.style.background =
+            randomColor();
+
+
+        confetti.style.animationDelay =
+            Math.random()*2 +
+            "s";
+
+
+        confetti.style.width =
+            (5 +
+            Math.random()*8) +
+            "px";
+
+
+        confetti.style.height =
+            (8 +
+            Math.random()*12) +
+            "px";
+
+
+        document.body.appendChild(
+            confetti
+        );
+
+
+        setTimeout(
+            function(){
+
+                confetti.remove();
+
+            },
+            5000
+        );
+
+    }
+
+}
+
+
+/* =========================================
+   HEARTS
+========================================= */
+
+function createHearts(){
+
+    const hearts = [
+        "❤️",
+        "💖",
+        "💕",
+        "💗",
+        "💓",
+        "💝",
+        "🎂"
+    ];
+
+
+    for(
+        let i=0;
+        i<25;
+        i++
+    ){
+
+        const heart =
+            document.createElement(
+                "div"
+            );
+
+
+        heart.className =
+            "heart";
+
+
+        heart.innerHTML =
+            hearts[
+                Math.floor(
+                    Math.random() *
+                    hearts.length
+                )
+            ];
+
+
+        heart.style.left =
+            Math.random()*100 +
+            "vw";
+
+
+        heart.style.fontSize =
+            (18 +
+            Math.random()*25) +
+            "px";
+
+
+        heart.style.animationDuration =
+            (3 +
+            Math.random()*3) +
+            "s";
+
+
+        document.body.appendChild(
+            heart
+        );
+
+
+        setTimeout(
+            function(){
+
+                heart.remove();
+
+            },
+            6000
+        );
+
+    }
+
+}
+
+
+/* =========================================
+   LIGHTBOX
+========================================= */
+
+const photos = [
+      "photos/photo1.jpg", "photos/photo2.jpg", "photos/photo3.jpg",
+      "photos/photo4.jpg", "photos/photo5.jpg", "photos/photo6.jpg",
+      "photos/photo7.jpg", "photos/photo8.jpg", "photos/photo9.jpg",
+      "photos/photo10.jpg"
+    ];
+
+
+let currentPhoto = 0;
+
+
+function openLightbox(index){
+
+    currentPhoto = index;
+
+    document.getElementById(
+        "lightboxImage"
+    ).src =
+        photos[currentPhoto];
+
+
+    document.getElementById(
+        "lightbox"
+    ).classList.add(
+        "active"
+    );
+
+}
+
+
+function closeLightbox(){
+
+    document.getElementById(
+        "lightbox"
+    ).classList.remove(
+        "active"
+    );
+
+}
+
+
+function changePhoto(direction){
+
+    currentPhoto += direction;
+
+
+    if(
+        currentPhoto >=
+        photos.length
+    ){
+
+        currentPhoto = 0;
+
+    }
+
+
+    if(
+        currentPhoto < 0
+    ){
+
+        currentPhoto =
+            photos.length - 1;
+
+    }
+
+
+    document.getElementById(
+        "lightboxImage"
+    ).src =
+        photos[currentPhoto];
+
+}
+
+
+/* =========================================
+   KEYBOARD
+========================================= */
+
+document.addEventListener(
+    "keydown",
+    function(e){
+
+        if(
+            e.key === "Escape"
+        ){
+
+            closeLightbox();
+
+        }
+
+
+        if(
+            e.key === "ArrowRight"
+        ){
+
+            changePhoto(1);
+
+        }
+
+
+        if(
+            e.key === "ArrowLeft"
+        ){
+
+            changePhoto(-1);
+
+        }
+
+    }
+);
+
+
+/* =========================================
+   AUTO START MUSIC ON WEBSITE OPEN
+========================================= */
+window.addEventListener("DOMContentLoaded", function(){
+    music.volume = 1.0;
+
+    const playPromise = music.play();
+
+    if(playPromise !== undefined){
+        playPromise.then(function(){
+            musicPlaying = true;
+            musicButton.innerHTML = "🔊";
+            showMusicStatus();
+        }).catch(function(){
+            /* Browser autoplay policy may require the first tap. */
+        });
+    }
+});
+
+
+/* =========================================
+   FIRST LOAD
+========================================= */
+
+window.addEventListener(
+    "load",
+    function(){
+
+        setTimeout(
+            function(){
+
+                createHearts();
+
+            },
+            1000
+        );
+
+    }
+);
+
+</script>
+
+
+
+
 </body>
+
 </html>
